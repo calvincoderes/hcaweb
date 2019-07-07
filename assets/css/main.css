@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "themeFont";
+  src: url("../font/Multicolore.otf");
+}
+body{
+  background: url('../../dna-faded-3.png') no-repeat;
+  background-position-x: 110%;
+  background-blend-mode: lighten;
+}
+body::after{
+  opacity: 0.5;
+  filter: alpha(opacity=50);
+}
+.theme-blue {
+  color: #45c2c7 !important;
+}
+.theme-gray {
+  color: #6d6f70 !important;
+}
+.theme-font {
+ font-family: 'themeFont'
+}
+#header-container {
+  padding-top: 20px;
+}
+#row-paragraph {
+  padding-top: 25px;
+}
+.footer {
+  height: 40px;
+  background-color: #46c1c8;
+  position:absolute;
+  bottom:0;
+  width:100%;
+}
+
+.test1 {
+  background: red !important;
+}
+.test2 {
+  background: green !important;
+}
+.test3 {
+  background: blue !important;
+}
