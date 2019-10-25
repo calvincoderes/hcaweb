@@ -1,0 +1,3 @@
+Color:
+#45c2c7 - HCT Blue
+#6d6f70 - HCT Gray

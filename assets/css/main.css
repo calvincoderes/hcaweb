@@ -2,20 +2,14 @@
   font-family: "themeFont";
   src: url("../font/Multicolore.otf");
 }
-body{
-  background: url('../../dna-faded-3.png') no-repeat;
-  background-position-x: 110%;
-  background-blend-mode: lighten;
-}
-body::after{
-  opacity: 0.5;
-  filter: alpha(opacity=50);
-}
 .theme-blue {
-  color: #45c2c7 !important;
+  color: #2857a5 !important;
+}
+.theme-violet {
+  color: #8f3d86 !important;
 }
 .theme-gray {
-  color: #6d6f70 !important;
+  color: #5d5d5d !important; 
 }
 .theme-font {
  font-family: 'themeFont'
@@ -23,8 +17,58 @@ body::after{
 #header-container {
   padding-top: 20px;
 }
+#content-header {
+  height: 110px;
+  border-bottom: solid #2857a5 10px;
+}
 #row-paragraph {
   padding-top: 25px;
+}
+#contact-us {
+  align-self: flex-end;
+  text-align: end;
+  padding-bottom: 35px;
+  margin-right: 40px;
+}
+#body-text {
+  align-self: center;
+}
+#row-footer {
+  padding-top: 40px;
+  min-height: 200px;
+  background: url('../footer.jpg') no-repeat;
+  background-position-x: center;
+  background-size: cover;
+}
+.footer-text{
+  color: white;
+}
+.footer-sub-text {
+  color: white;
+  line-height: 6px;
+}
+.br-white {
+  border-right: 1px solid white;
+}
+.download-icon {
+  height: 90px;
+}
+.download_sites {
+  padding-top: 50px;
+}
+.content_container {
+  margin-top: -20px;
+}
+.image-col {
+  align-self: flex-end;
+  padding-bottom: 20px
+}
+.icon-image {
+  height: 50px;
+  margin-left: 40px;
+}
+.subheading {
+  font-size: 20px;
 }
 .footer {
   height: 40px;
@@ -33,7 +77,9 @@ body::after{
   bottom:0;
   width:100%;
 }
-
+.phone-icon {
+  height: 700px;
+}
 .test1 {
   background: red !important;
 }

@@ -10,36 +10,87 @@
   <!-- CSS -->
   <link rel="stylesheet" href="../web/assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="../web/assets/css/main.css">
+  <link href="../web/assets/fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
 <!-- title -->
-<title>HCTAcademy</title>
+<title>HCA Healthcare App</title>
 </head>
 <body>
-  <div class="container" id="header-container">
-    <div class="row" id="row-logo">
-      <div class="col-sm">
-        
+  <div class="container-fluid" id="header-container">
+    <section class="row" id="content-header">
+        <div class="col-sm image-col">
+          <img src="../web/img/logo-landscape3x.png" class="img-fluid icon-image" alt="Responsive image">
+        </div>
+        <div class="col-sm theme-font" id="contact-us">
+         <a href="#" data-toggle="modal" data-target="#exampleModal">
+            <strong class="theme-blue">CONTACT</strong> <strong class="theme-violet">US</strong>
+         </a>
+        </div>
+    </section>
+    <div class="row" id="row-phone">
+      <div class="col-sm-3 offset-sm-2 image-col">
+        <img src="../web/img/phoneapp.png" class="img-fluid phone-icon" alt="Responsive image">
       </div>
-      <div class="col-sm image-col">
-        <img src="../web/HCT Academy Logo/HCTfinal-01.png" class="img-fluid" alt="Responsive image">
-      </div>
-      <div class="col-sm">
-        
+      <div class="col-sm-6" id="body-text">
+        <p class="content_container">
+            <h1 class="heading theme-gray">
+              Your <span class="theme-blue">Health</span><span class="theme-violet">Care</span>, one tap away.
+            </h1>
+            <p class="subheading theme-gray">
+              Quality medical care at the comfort of your home.
+            </p>
+        </p>
+        <p class="download_sites">
+          <h4 class="theme-gray" style="padding-bottom: 40px">Available on:</h4>
+          <p>
+              <img src="../web/img/playStore.png" class="img-fluid download-icon" alt="Responsive image">
+              <img src="../web/img/app_store.png" class="img-fluid download-icon" alt="Responsive image">
+          </p>
+        </p>
       </div>
     </div>
-    <div class="row" id="row-content">
-      <div class="col-sm-12 image-col">
-        <h1 class="theme-font text-center"><text class="theme-blue">HCT</text> <text class="theme-gray">Academy</text> IS COMING SOON</h1>
-      </div>
+    <div class="row justify-content-center" id="row-footer">
+        <div class="col">
+            <div class="row justify-content-center">
+                <div class="col-12 text-center">
+                    <h3 class="footer-text">FAST. RELIABLE. ACCESSIBLE</h3>
+                </div>
+            </div>
+            <div class="row justify-content-center" style="margin-top:15px;">
+                <div class="col-4 text-right footer-sub-text br-white" style="padding-right: 40px;">
+                    <p>Luxury health care assistance</p>
+                    <p>Swift healthcare appointment</p>
+                    <p>Connect medical practitioners & consumers</p>
+                    <p>Minimize waiting time</p>
+                </div>
+                <div class="col-4 footer-sub-text" style="padding-left: 40px;">
+                    <p>Easy to navigate</p>
+                    <p>Optimised user interface</p>
+                    <p>Registration made easy</p>
+                    <p>User dashboard availability</p>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row" id="row-paragraph">
-      <div class="col-sm-12">
-        <p class="theme-font text-center">Stay tuned! We are doing something awesome for you!</p>
+    <!-- <section id="footer" class="test1">
+      <div class="row no-gutters">
+        <div class="col-sm"> TEST FOOTER</div>
       </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="footerContainer">
-      <p class="text-center">© Copyright - HCT Academy. All rights reserved.</p>
+    </section> -->
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Contact Us</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <p><i class="fas fa-phone-square-alt"></i> +63 917 127 9785</p>
+            <p><i class="fas fa-envelope-square"></i> harry@healthcareapp.co</p>
+        </div>
+      </div>
     </div>
   </div>
 </body>
